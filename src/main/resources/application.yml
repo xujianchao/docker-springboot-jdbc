@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: sb-jdbc
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.137.129:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false&connectTimeout=5000&socketTimeout=5000&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
